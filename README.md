@@ -11,9 +11,10 @@
 4. Update outDir in tsconfig.json: 
     ```"outDir": "./dist", /* Specify an output folder for all emitted files. */```
 5. Add test,build and tsc in script to package.json 
-   ```"test": "jasmine",
+   ```
+    "test": "jasmine",
     "build": "tsc",
-    "tsc": "tsc",
+    "tsc": "tsc"
    ```
 6. Create Simple TypeScript Jasmine Spec under src/my-first-test.spec.ts
 
