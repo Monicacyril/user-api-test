@@ -22,4 +22,5 @@
       ```npm run tsc```
 8. Run test Script: 
      ```npm test```
-    
+
+Reference: https://devtails.xyz/@adam/how-to-run-unit-tests-with-jasmine-and-typescript
