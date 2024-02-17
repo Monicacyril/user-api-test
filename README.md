@@ -1,6 +1,7 @@
 # user-api-test
 
 
+# Jasmine setup with typescript
 1. Initialize npm Project
     npm init
 2. Install TypeScript, Jasmine, and Jasmine types Packages
