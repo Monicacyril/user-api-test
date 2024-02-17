@@ -10,17 +10,21 @@
     ```npx tsc --init```
 4. Update outDir in tsconfig.json: 
     ```"outDir": "./dist", /* Specify an output folder for all emitted files. */```
-5. Add test,build and tsc in script to package.json 
+5.Initialize Jasmine. This creates a file at spec/support/jasmine.json
+    ```npx jasmine init```
+6. make the following changes in jasmine.json:
+    ```"spec_dir": "dist",```
+7.  Add test,build and tsc in script to package.json 
    ```
     "test": "jasmine",
     "build": "tsc",
     "tsc": "tsc"
    ```
-6. Create Simple TypeScript Jasmine Spec under src/my-first-test.spec.ts
+8. Create Simple TypeScript Jasmine Spec under src/my-first-test.spec.ts
 
-7. Run build Script: 
+9. Run build Script: 
       ```npm run tsc```
-8. Run test Script: 
+10. Run test Script: 
      ```npm test```
 
 Reference: https://devtails.xyz/@adam/how-to-run-unit-tests-with-jasmine-and-typescript
