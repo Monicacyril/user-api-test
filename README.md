@@ -13,7 +13,7 @@
 5. Add test,build and tsc in script to package.json 
    ```"test": "jasmine",
     "build": "tsc",
-    "tsc": "tsc"
+    "tsc": "tsc",
    ```
 6. Create Simple TypeScript Jasmine Spec under src/my-first-test.spec.ts
 
