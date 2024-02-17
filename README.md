@@ -3,7 +3,7 @@
 
 # Jasmine setup with typescript
 1. Initialize npm Project
-    npm init
+    ```npm init```
 2. Install TypeScript, Jasmine, and Jasmine types Packages
     npm i --save-dev typescript jasmine @types/jasmine
 3. Initialize Project for Typescript Usage. This will create a tsconfig.json file.
