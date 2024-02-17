@@ -10,7 +10,8 @@
     ```npx tsc --init```
 4. Update outDir in tsconfig.json: 
     ```"outDir": "./dist", /* Specify an output folder for all emitted files. */```
-5.Initialize Jasmine. This creates a file at spec/support/jasmine.json
+
+5. Initialize Jasmine. This creates a file at spec/support/jasmine.json
     ```npx jasmine init```
 6. make the following changes in jasmine.json:
     ```"spec_dir": "dist",```
