@@ -8,9 +8,9 @@
     ```npm i --save-dev typescript jasmine @types/jasmine```
 3. Initialize Project for Typescript Usage. This will create a tsconfig.json file. 
     ```npx tsc --init```
-4. Update outDir in tsconfig.json: 
+4. Update outDir in tsconfig.json: when compile the ts code, the complier converts ts to Js and the Js code is saved in the below directory
     ```"outDir": "./dist", /* Specify an output folder for all emitted files. */```
-
+   
 5. Initialize Jasmine. This creates a file at spec/support/jasmine.json
     ```npx jasmine init```
 6. make the following changes in jasmine.json:
