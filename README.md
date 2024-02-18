@@ -13,7 +13,7 @@
    
 5. Initialize Jasmine. This creates a file at spec/support/jasmine.json
     ```npx jasmine init```
-6. make the following changes in jasmine.json:
+6. make the following changes in jasmine.json: To identify the Js code location genrated by the ts code compiler
     ```"spec_dir": "dist",```
 7.  Add test,build and tsc in script to package.json 
    ```
